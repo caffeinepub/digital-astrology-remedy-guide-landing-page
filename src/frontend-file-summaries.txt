@@ -1,0 +1,17 @@
+{
+  "frontend/src/App.tsx": "Main application component that orchestrates the single-page landing layout with all sections in conversion-optimized sequence and handles CTA click navigation.",
+  "frontend/src/components/HeroSection.tsx": "Hero section with emotional headline about feeling stuck, prominent CTA button, hero background image, and trust badges to capture attention immediately.",
+  "frontend/src/components/ProblemSection.tsx": "Problem section displaying five common struggles (income instability, health fatigue, mental stress, promotion delays, slow business growth) with icons and relatable descriptions.",
+  "frontend/src/components/FearBridgeSection.tsx": "Fear/FOMO bridge section that introduces the concept of planetary imbalance affecting outcomes despite hard work, creating emotional tension and motivation.",
+  "frontend/src/components/SolutionSection.tsx": "Solution section introducing the astrology remedy guide with product mockup image and five key benefit areas (money, health, peace, career, business).",
+  "frontend/src/components/BenefitsSection.tsx": "Benefits section listing four tangible outcomes (financial discipline, emotional calm, clearer decisions, better opportunity flow) with icons and detailed descriptions.",
+  "frontend/src/components/WhatsIncludedSection.tsx": "What's included section displaying four components of the guide (planet-based remedies, weekly planner, daily checklist, ritual calendar) with icons and explanations.",
+  "frontend/src/components/PriceSection.tsx": "Price section with anchor pricing (₹999 crossed out, ₹299 offer), feature checklist, prominent CTA button, and trust badges to drive purchase decision.",
+  "frontend/src/components/FAQSection.tsx": "FAQ section with accordion component answering three key questions to reduce friction and build confidence in the purchase.",
+  "frontend/src/components/FinalCTASection.tsx": "Final CTA section with urgency messaging and emotional appeal encouraging immediate action with prominent purchase button.",
+  "frontend/src/components/StickyMobileCTA.tsx": "Sticky CTA button component that appears at bottom of mobile viewport after scrolling 300px to maintain conversion opportunity throughout page.",
+  "frontend/src/components/TrustBadges.tsx": "Reusable trust badges component displaying three badges (instant download, one-time payment, digital access) with icons and descriptions.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright information and caffeine.ai attribution link with proper UTM tracking parameters.",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining white background, black text, gold accent colors, and large readable typography optimized for mobile-first design.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with gold color tokens, larger font sizes for readability, and custom utilities for the warm, trustworthy color scheme."
+}

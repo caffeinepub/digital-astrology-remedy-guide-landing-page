@@ -1,0 +1,271 @@
+{
+  "kind": "build_request",
+  "title": "Build single-page astrology remedy guide landing page",
+  "projectName": "Astrology Remedy Guide",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a mobile-first, responsive single-page landing website using React, TypeScript, and Tailwind CSS with a warm, trustworthy color scheme (white background, gold accents, black text) and large readable fonts",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "RESPONSIVE html css js bootstrap landing website",
+          "mobile-first",
+          "Use warm, trustworthy colors (WHITE, gold accents, bLACK background). Large readable fonts"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Page is fully responsive and mobile-optimized",
+        "Color palette uses white, gold accents, and black as specified",
+        "Typography is large and readable on all device sizes"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Implement a hero section with an emotional headline addressing feelings of being stuck in money, health, and life progress, plus a prominent CTA button for instant download",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Hero section with emotional headline about feeling stuck in money, health, and life progress, plus a strong CTA button for instant download"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section appears first on the page",
+        "Headline emotionally resonates with target audience pain points",
+        "CTA button is prominent and clearly actionable"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a problem section that describes common struggles: income instability, health fatigue, mental stress, promotion delays, and slow business growth using relatable, human language",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Problem section describing common struggles: income instability, health fatigue, mental stress, promotion delays, and slow business growth"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section lists all five specified pain points",
+        "Tone is human and relatable, not mystical",
+        "Content addresses Indian users aged 22-50"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Implement a fear/FOMO bridge section explaining that effort alone isn't enough and that unseen energetic or planetary imbalance may affect outcomes",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Fear/FOMO bridge explaining that sometimes effort isn't enough and unseen energetic or planetary imbalance may affect outcomes"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section creates emotional tension about staying stuck",
+        "Content introduces concept of planetary imbalance subtly",
+        "Messaging drives motivation without being overly spiritual"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Create a solution section introducing the product as a simple, practical astrology remedy guide covering money, health, peace, career growth, and business stability",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Solution section introducing the product as a simple, practical astrology remedy guide covering money, health, peace, career growth, and business stability"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section clearly positions the guide as practical and accessible",
+        "All five benefit areas are mentioned",
+        "Tone remains relatable and actionable"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Implement a benefits section listing outcomes: improved financial discipline, emotional calm, clearer decisions, and better opportunity flow",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Benefits section listing outcomes such as improved financial discipline, emotional calm, clearer decisions, and better opportunity flow"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All four outcomes are clearly listed",
+        "Benefits are framed in concrete, tangible terms",
+        "Section reinforces value proposition"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Create a 'What's included' section listing: planet-based remedies, weekly planner, daily checklist, and ritual calendar",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "What's included section listing: planet-based remedies, weekly planner, daily checklist, and ritual calendar"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All four components are listed clearly",
+        "Section builds confidence in product completeness",
+        "Items are described in accessible language"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Implement a price section with anchor pricing showing a higher crossed-out price and a discounted offer of ₹299, plus instant download reassurance",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Price section with anchor pricing (higher crossed price and discounted offer around ₹299), plus instant download reassurance"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Original price is shown crossed out",
+        "Discounted price is ₹299",
+        "Instant download messaging is prominent",
+        "Pricing creates perceived value"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Create an FAQ section answering three questions: 'Do I need a horoscope?', 'Are remedies complicated?', and 'How soon can I expect results?'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "FAQ section answering: Do I need horoscope? Are remedies complicated? How soon to expect results?"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All three questions are answered clearly",
+        "Answers reduce friction and build confidence",
+        "Tone remains reassuring and practical"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Implement a final CTA section with urgency messaging encouraging immediate purchase action",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Final CTA section with urgency tone encouraging immediate action"
+        ]
+      },
+      "acceptanceCriteria": [
+        "CTA messaging creates sense of urgency",
+        "Section motivates immediate purchase decision",
+        "Language is action-oriented"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Add a sticky CTA button that remains visible on mobile as users scroll through the page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Sticky CTA button on mobile"
+        ]
+      },
+      "acceptanceCriteria": [
+        "CTA button is fixed/sticky on mobile viewport",
+        "Button remains accessible throughout scroll",
+        "Button design matches overall aesthetic"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Include trust badges displaying 'Instant Download', 'One-time Payment', and 'Digital Access' throughout the page to build credibility",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Trust badges like instant download, one-time payment, digital access"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All three trust badges are visible",
+        "Badges are strategically placed near CTAs",
+        "Visual design reinforces trust and professionalism"
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "text": "Optimize page layout and content flow for paid ads traffic conversion with clear visual hierarchy and minimal friction to purchase",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "optimized for paid ads traffic",
+          "Goal of the page: Make visitors feel understood, slightly worried about staying stuck, and motivated to take a small step today by purchasing the guide"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Page structure follows proven landing page conversion principles",
+        "Sections flow logically from problem to solution to action",
+        "Visual hierarchy guides users toward purchase decision",
+        "No unnecessary friction or distractions from conversion goal"
+      ]
+    }
+  ],
+  "constraints": [
+    "Must be mobile-first responsive design",
+    "Color scheme must use white background, gold accents, and black text only",
+    "Tone must be human and relatable, not mystical or overly spiritual",
+    "Price must be ₹299 with anchor pricing",
+    "All section order must follow the specified sequence"
+  ],
+  "nonGoals": [
+    "Building actual payment processing or checkout flow",
+    "Creating backend functionality for product delivery",
+    "Implementing user authentication or account management",
+    "Generating actual astrology remedy content or calculations",
+    "Building multi-page website structure"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Hero section background image showing warm, aspirational scene suggesting financial peace and life stability with Indian cultural context (hero-bg.dim_1920x1080.png)",
+      "Trust badge icon for instant download symbol in gold and white (badge-instant.dim_120x120.png)",
+      "Trust badge icon for one-time payment symbol in gold and white (badge-payment.dim_120x120.png)",
+      "Trust badge icon for digital access symbol in gold and white (badge-digital.dim_120x120.png)",
+      "Product mockup showing the astrology remedy guide as a professional digital document with gold accents (product-mockup.dim_800x1000.png)"
+    ],
+    "edits": []
+  }
+}

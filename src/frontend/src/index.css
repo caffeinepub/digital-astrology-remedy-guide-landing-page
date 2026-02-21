@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.625rem;
+        /* White background */
+        --background: 1 0 0;
+        /* Black text */
+        --foreground: 0.145 0 0;
+        --card: 1 0 0;
+        --card-foreground: 0.145 0 0;
+        --popover: 1 0 0;
+        --popover-foreground: 0.145 0 0;
+        /* Black for primary */
+        --primary: 0.145 0 0;
+        --primary-foreground: 1 0 0;
+        /* Light gray for secondary */
+        --secondary: 0.97 0 0;
+        --secondary-foreground: 0.145 0 0;
+        /* Muted gray */
+        --muted: 0.95 0 0;
+        --muted-foreground: 0.5 0 0;
+        /* Light accent */
+        --accent: 0.97 0 0;
+        --accent-foreground: 0.145 0 0;
+        --destructive: 0.577 0.245 27.325;
+        --destructive-foreground: 0.985 0 0;
+        /* Light borders */
+        --border: 0.9 0 0;
+        --input: 0.9 0 0;
+        --ring: 0.7 0 0;
+        --chart-1: 0.646 0.222 41.116;
+        --chart-2: 0.6 0.118 184.704;
+        --chart-3: 0.398 0.07 227.392;
+        --chart-4: 0.828 0.189 84.429;
+        --chart-5: 0.769 0.188 70.08;
+        
+        /* Gold accent colors */
+        --gold: 0.7 0.15 85;
+        --gold-dark: 0.6 0.15 75;
+    }
+
+    .dark {
+        /* Dark background */
+        --background: 0.145 0 0;
+        /* White text */
+        --foreground: 0.985 0 0;
+        --card: 0.2 0 0;
+        --card-foreground: 0.985 0 0;
+        --popover: 0.2 0 0;
+        --popover-foreground: 0.985 0 0;
+        /* Gold for primary in dark mode */
+        --primary: 0.7 0.15 85;
+        --primary-foreground: 0.145 0 0;
+        --secondary: 0.3 0 0;
+        --secondary-foreground: 0.985 0 0;
+        --muted: 0.25 0 0;
+        --muted-foreground: 0.65 0 0;
+        --accent: 0.3 0 0;
+        --accent-foreground: 0.985 0 0;
+        --destructive: 0.704 0.191 22.216;
+        --destructive-foreground: 0.985 0 0;
+        --border: 0.3 0 0;
+        --input: 0.3 0 0;
+        --ring: 0.5 0 0;
+        --chart-1: 0.488 0.243 264.376;
+        --chart-2: 0.696 0.17 162.48;
+        --chart-3: 0.769 0.188 70.08;
+        --chart-4: 0.627 0.265 303.9;
+        --chart-5: 0.645 0.246 16.439;
+        
+        /* Gold accent colors for dark mode */
+        --gold: 0.75 0.18 85;
+        --gold-dark: 0.65 0.18 75;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* Smooth scrolling */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Large readable typography */
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-bold;
+        line-height: 1.2;
+    }
+
+    h1 {
+        @apply text-4xl md:text-5xl lg:text-6xl;
+    }
+
+    h2 {
+        @apply text-3xl md:text-4xl lg:text-5xl;
+    }
+
+    h3 {
+        @apply text-2xl md:text-3xl;
+    }
+
+    p {
+        @apply text-base md:text-lg;
+    }
+}
+
+@layer utilities {
+    /* Gold color utilities */
+    .text-gold {
+        color: oklch(var(--gold));
+    }
+    
+    .bg-gold {
+        background-color: oklch(var(--gold));
+    }
+    
+    .border-gold {
+        border-color: oklch(var(--gold));
+    }
+    
+    .hover\:bg-gold-dark:hover {
+        background-color: oklch(var(--gold-dark));
+    }
+    
+    .hover\:text-gold:hover {
+        color: oklch(var(--gold));
+    }
+
+    /* Gradient utilities */
+    .bg-gold-gradient {
+        background: linear-gradient(135deg, oklch(var(--gold)) 0%, oklch(var(--gold-dark)) 100%);
+    }
+}

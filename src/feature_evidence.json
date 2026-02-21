@@ -1,0 +1,254 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-mobile-first-responsive-single-page-landing-website-using-react-typescript-and-tailwind-css-with-a-warm-trustworthy-color-scheme-white-background-gold-accents-black-text-and-large-readable-fonts",
+      "featureTitle": "Create a mobile-first, responsive single-page landing website using React, TypeScript, and Tailwind CSS with a warm, trustworthy color scheme (white background, gold accents, black text) and large readable fonts",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-hero-section-with-an-emotional-headline-addressing-feelings-of-being-stuck-in-money-health-and-life-progress-plus-a-prominent-cta-button-for-instant-download",
+      "featureTitle": "Implement a hero section with an emotional headline addressing feelings of being stuck in money, health, and life progress, plus a prominent CTA button for instant download",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-problem-section-that-describes-common-struggles-income-instability-health-fatigue-mental-stress-promotion-delays-and-slow-business-growth-using-relatable-human-language",
+      "featureTitle": "Create a problem section that describes common struggles: income instability, health fatigue, mental stress, promotion delays, and slow business growth using relatable, human language",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ProblemSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-fear-fomo-bridge-section-explaining-that-effort-alone-isn-t-enough-and-that-unseen-energetic-or-planetary-imbalance-may-affect-outcomes",
+      "featureTitle": "Implement a fear/FOMO bridge section explaining that effort alone isn't enough and that unseen energetic or planetary imbalance may affect outcomes",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/FearBridgeSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-solution-section-introducing-the-product-as-a-simple-practical-astrology-remedy-guide-covering-money-health-peace-career-growth-and-business-stability",
+      "featureTitle": "Create a solution section introducing the product as a simple, practical astrology remedy guide covering money, health, peace, career growth, and business stability",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/SolutionSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-benefits-section-listing-outcomes-improved-financial-discipline-emotional-calm-clearer-decisions-and-better-opportunity-flow",
+      "featureTitle": "Implement a benefits section listing outcomes: improved financial discipline, emotional calm, clearer decisions, and better opportunity flow",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/BenefitsSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-what-s-included-section-listing-planet-based-remedies-weekly-planner-daily-checklist-and-ritual-calendar",
+      "featureTitle": "Create a 'What's included' section listing: planet-based remedies, weekly planner, daily checklist, and ritual calendar",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/WhatsIncludedSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-price-section-with-anchor-pricing-showing-a-higher-crossed-out-price-and-a-discounted-offer-of-299-plus-instant-download-reassurance",
+      "featureTitle": "Implement a price section with anchor pricing showing a higher crossed-out price and a discounted offer of ₹299, plus instant download reassurance",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/PriceSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-an-faq-section-answering-three-questions-do-i-need-a-horoscope-are-remedies-complicated-and-how-soon-can-i-expect-results",
+      "featureTitle": "Create an FAQ section answering three questions: 'Do I need a horoscope?', 'Are remedies complicated?', and 'How soon can I expect results?'",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/FAQSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-final-cta-section-with-urgency-messaging-encouraging-immediate-purchase-action",
+      "featureTitle": "Implement a final CTA section with urgency messaging encouraging immediate purchase action",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/FinalCTASection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-a-sticky-cta-button-that-remains-visible-on-mobile-as-users-scroll-through-the-page",
+      "featureTitle": "Add a sticky CTA button that remains visible on mobile as users scroll through the page",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/StickyMobileCTA.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-include-trust-badges-displaying-instant-download-one-time-payment-and-digital-access-throughout-the-page-to-build-credibility",
+      "featureTitle": "Include trust badges displaying 'Instant Download', 'One-time Payment', and 'Digital Access' throughout the page to build credibility",
+      "files": [
+        "frontend/src/components/HeroSection.tsx",
+        "frontend/src/components/PriceSection.tsx",
+        "frontend/src/components/TrustBadges.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-optimize-page-layout-and-content-flow-for-paid-ads-traffic-conversion-with-clear-visual-hierarchy-and-minimal-friction-to-purchase",
+      "featureTitle": "Optimize page layout and content flow for paid ads traffic conversion with clear visual hierarchy and minimal friction to purchase",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/index.css"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

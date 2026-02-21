@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Single-page responsive landing website for a digital astrology remedy guide targeting Indian users aged 22-50 facing financial stress, health worries, career delays, or business instability. Emotionally engaging tone focused on real-life pain points. Mobile-first design optimized for paid ads traffic with conversion-focused structure.",
+  "architectural_notes": [
+    "Single-page responsive HTML/CSS/JS/Bootstrap landing page",
+    "Mobile-first design optimized for paid ads traffic",
+    "Color scheme: white, gold accents, black background",
+    "Large readable fonts for accessibility",
+    "Target audience: Indian users aged 22-50"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Hero section background image showing warm, aspirational scene suggesting financial peace and life stability with Indian cultural context (hero-bg.dim_1920x1080.png)\n- Trust badge icon for instant download symbol in gold and white (badge-instant.dim_120x120.png)\n- Trust badge icon for one-time payment symbol in gold and white (badge-payment.dim_120x120.png)\n- Trust badge icon for digital access symbol in gold and white (badge-digital.dim_120x120.png)\n- Product mockup showing the astrology remedy guide as a professional digital document with gold accents (product-mockup.dim_800x1000.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-mobile-first-responsive-single-page-landing-website-using-react-typescript-and-tailwind-css-with-a-warm-trustworthy-color-scheme-white-background-gold-accents-black-text-and-large-readable-fonts",
+      "title": "Create a mobile-first, responsive single-page landing website using React, TypeScript, and Tailwind CSS with a warm, trustworthy color scheme (white background, gold accents, black text) and large readable fonts",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-hero-section-with-an-emotional-headline-addressing-feelings-of-being-stuck-in-money-health-and-life-progress-plus-a-prominent-cta-button-for-instant-download",
+      "title": "Implement a hero section with an emotional headline addressing feelings of being stuck in money, health, and life progress, plus a prominent CTA button for instant download",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-problem-section-that-describes-common-struggles-income-instability-health-fatigue-mental-stress-promotion-delays-and-slow-business-growth-using-relatable-human-language",
+      "title": "Create a problem section that describes common struggles: income instability, health fatigue, mental stress, promotion delays, and slow business growth using relatable, human language",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-fear-fomo-bridge-section-explaining-that-effort-alone-isn-t-enough-and-that-unseen-energetic-or-planetary-imbalance-may-affect-outcomes",
+      "title": "Implement a fear/FOMO bridge section explaining that effort alone isn't enough and that unseen energetic or planetary imbalance may affect outcomes",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-solution-section-introducing-the-product-as-a-simple-practical-astrology-remedy-guide-covering-money-health-peace-career-growth-and-business-stability",
+      "title": "Create a solution section introducing the product as a simple, practical astrology remedy guide covering money, health, peace, career growth, and business stability",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-benefits-section-listing-outcomes-improved-financial-discipline-emotional-calm-clearer-decisions-and-better-opportunity-flow",
+      "title": "Implement a benefits section listing outcomes: improved financial discipline, emotional calm, clearer decisions, and better opportunity flow",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-what-s-included-section-listing-planet-based-remedies-weekly-planner-daily-checklist-and-ritual-calendar",
+      "title": "Create a 'What's included' section listing: planet-based remedies, weekly planner, daily checklist, and ritual calendar",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-price-section-with-anchor-pricing-showing-a-higher-crossed-out-price-and-a-discounted-offer-of-299-plus-instant-download-reassurance",
+      "title": "Implement a price section with anchor pricing showing a higher crossed-out price and a discounted offer of ₹299, plus instant download reassurance",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-faq-section-answering-three-questions-do-i-need-a-horoscope-are-remedies-complicated-and-how-soon-can-i-expect-results",
+      "title": "Create an FAQ section answering three questions: 'Do I need a horoscope?', 'Are remedies complicated?', and 'How soon can I expect results?'",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-final-cta-section-with-urgency-messaging-encouraging-immediate-purchase-action",
+      "title": "Implement a final CTA section with urgency messaging encouraging immediate purchase action",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-sticky-cta-button-that-remains-visible-on-mobile-as-users-scroll-through-the-page",
+      "title": "Add a sticky CTA button that remains visible on mobile as users scroll through the page",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-include-trust-badges-displaying-instant-download-one-time-payment-and-digital-access-throughout-the-page-to-build-credibility",
+      "title": "Include trust badges displaying 'Instant Download', 'One-time Payment', and 'Digital Access' throughout the page to build credibility",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-optimize-page-layout-and-content-flow-for-paid-ads-traffic-conversion-with-clear-visual-hierarchy-and-minimal-friction-to-purchase",
+      "title": "Optimize page layout and content flow for paid ads traffic conversion with clear visual hierarchy and minimal friction to purchase",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with emotional headline and CTA button",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Problem section describing common user struggles",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Fear/FOMO bridge section about planetary imbalance",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Solution section introducing the astrology remedy guide",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Benefits section listing positive outcomes",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "What's included section with guide contents",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Price section with anchor pricing and ₹299 offer",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "FAQ section answering common questions",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Final CTA section with urgency messaging",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Sticky CTA button for mobile",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Trust badges (instant download, one-time payment, digital access)",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Digital Astrology Remedy Guide Landing Page",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

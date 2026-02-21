@@ -1,2 +1,3 @@
-# digital-astrology-remedy-guide-landing-page
-Exported from Caffeine project: Digital Astrology Remedy Guide Landing Page
+## Digital Astrology Remedy Guide Landing Page
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

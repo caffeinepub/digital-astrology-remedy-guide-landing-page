@@ -1,0 +1,292 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Build single-page astrology remedy guide landing page",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Create mobile-first responsive single-page landing with warm color scheme (white background, gold accents, black text) and large readable fonts using React, TypeScript, and Tailwind CSS",
+      "acceptanceCriteria": [
+        "Page is fully responsive and mobile-optimized",
+        "Color palette uses white, gold accents, and black as specified",
+        "Typography is large and readable on all device sizes"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Configure custom color palette with white background, gold accent colors (#D4AF37, #FFD700 variants), and black text. Set up responsive typography scale with large base font sizes for readability."
+        },
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Apply global styles with white background, black text defaults, and gold accent usage. Configure base typography with large readable font sizes and mobile-first responsive breakpoints."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Transform into single-page landing layout with mobile-first responsive structure. Apply warm color scheme and ensure all sections stack properly on mobile devices."
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Implement hero section with emotional headline addressing feelings of being stuck in money, health, and life progress, plus prominent CTA button for instant download",
+      "acceptanceCriteria": [
+        "Hero section appears first on the page",
+        "Headline emotionally resonates with target audience pain points",
+        "CTA button is prominent and clearly actionable"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "create",
+          "description": "Create hero section component with emotional headline about feeling stuck in money, health, and life progress. Include prominent CTA button for instant download with gold accent styling. Use the generated hero background image at frontend/public/assets/generated/hero-bg.dim_1920x1080.png as background. Ensure mobile-first responsive design with large readable typography."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render HeroSection component as the first section in the landing page layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Create problem section describing common struggles (income instability, health fatigue, mental stress, promotion delays, slow business growth) using relatable, human language",
+      "acceptanceCriteria": [
+        "Section lists all five specified pain points",
+        "Tone is human and relatable, not mystical",
+        "Content addresses Indian users aged 22-50"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ProblemSection.tsx",
+          "operation": "create",
+          "description": "Create problem section component listing five common struggles: income instability, health fatigue, mental stress, promotion delays, and slow business growth. Use relatable, human language appropriate for Indian users aged 22-50. Style with white background, black text, and gold accent highlights. Ensure mobile-responsive layout."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render ProblemSection component after HeroSection in the landing page layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Implement fear/FOMO bridge section explaining that effort alone isn't enough and unseen energetic or planetary imbalance may affect outcomes",
+      "acceptanceCriteria": [
+        "Section creates emotional tension about staying stuck",
+        "Content introduces concept of planetary imbalance subtly",
+        "Messaging drives motivation without being overly spiritual"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/FearBridgeSection.tsx",
+          "operation": "create",
+          "description": "Create fear/FOMO bridge section explaining that effort alone isn't enough and unseen energetic or planetary imbalance may affect outcomes. Create emotional tension about staying stuck while introducing planetary concepts subtly. Maintain human, relatable tone without excessive spirituality. Use mobile-responsive design with gold accents for emphasis."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render FearBridgeSection component after ProblemSection in the landing page layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Create solution section introducing the product as simple, practical astrology remedy guide covering money, health, peace, career growth, and business stability",
+      "acceptanceCriteria": [
+        "Section clearly positions the guide as practical and accessible",
+        "All five benefit areas are mentioned",
+        "Tone remains relatable and actionable"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/SolutionSection.tsx",
+          "operation": "create",
+          "description": "Create solution section introducing the astrology remedy guide as simple and practical. Cover all five areas: money, health, peace, career growth, and business stability. Position product as accessible and actionable. Include the generated product mockup image at frontend/public/assets/generated/product-mockup.dim_800x1000.png. Use mobile-responsive layout with gold accent styling."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render SolutionSection component after FearBridgeSection in the landing page layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Implement benefits section listing outcomes: improved financial discipline, emotional calm, clearer decisions, and better opportunity flow",
+      "acceptanceCriteria": [
+        "All four outcomes are clearly listed",
+        "Benefits are framed in concrete, tangible terms",
+        "Section reinforces value proposition"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/BenefitsSection.tsx",
+          "operation": "create",
+          "description": "Create benefits section listing four concrete outcomes: improved financial discipline, emotional calm, clearer decisions, and better opportunity flow. Frame benefits in tangible, relatable terms. Use mobile-responsive grid/list layout with gold accent icons or bullets. Reinforce value proposition clearly."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render BenefitsSection component after SolutionSection in the landing page layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "summary": "Create 'What's included' section listing: planet-based remedies, weekly planner, daily checklist, and ritual calendar",
+      "acceptanceCriteria": [
+        "All four components are listed clearly",
+        "Section builds confidence in product completeness",
+        "Items are described in accessible language"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/WhatsIncludedSection.tsx",
+          "operation": "create",
+          "description": "Create 'What's included' section listing four components: planet-based remedies, weekly planner, daily checklist, and ritual calendar. Describe each item in accessible, non-mystical language. Build confidence in product completeness. Use mobile-responsive layout with gold accent styling for list items."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render WhatsIncludedSection component after BenefitsSection in the landing page layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Implement price section with anchor pricing showing higher crossed-out price and discounted offer of ₹299, plus instant download reassurance",
+      "acceptanceCriteria": [
+        "Original price is shown crossed out",
+        "Discounted price is ₹299",
+        "Instant download messaging is prominent",
+        "Pricing creates perceived value"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/PriceSection.tsx",
+          "operation": "create",
+          "description": "Create price section with anchor pricing: display higher original price crossed out and discounted price of ₹299. Include prominent instant download reassurance messaging. Create perceived value through pricing presentation. Use gold accent styling for discounted price. Ensure mobile-responsive design."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render PriceSection component after WhatsIncludedSection in the landing page layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "summary": "Create FAQ section answering three questions: 'Do I need a horoscope?', 'Are remedies complicated?', and 'How soon can I expect results?'",
+      "acceptanceCriteria": [
+        "All three questions are answered clearly",
+        "Answers reduce friction and build confidence",
+        "Tone remains reassuring and practical"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/FAQSection.tsx",
+          "operation": "create",
+          "description": "Create FAQ section with three questions and answers: 'Do I need a horoscope?', 'Are remedies complicated?', and 'How soon can I expect results?'. Provide clear, friction-reducing answers that build confidence. Maintain reassuring, practical tone. Use mobile-responsive accordion or list layout with gold accent styling for active items."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render FAQSection component after PriceSection in the landing page layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "summary": "Implement final CTA section with urgency messaging encouraging immediate purchase action",
+      "acceptanceCriteria": [
+        "CTA messaging creates sense of urgency",
+        "Section motivates immediate purchase decision",
+        "Language is action-oriented"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/FinalCTASection.tsx",
+          "operation": "create",
+          "description": "Create final CTA section with urgent, action-oriented messaging encouraging immediate purchase. Create sense of urgency while maintaining human, relatable tone. Include prominent CTA button with gold accent styling. Ensure mobile-responsive design."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render FinalCTASection component after FAQSection as the final section in the landing page layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "summary": "Add sticky CTA button that remains visible on mobile as users scroll through the page",
+      "acceptanceCriteria": [
+        "CTA button is fixed/sticky on mobile viewport",
+        "Button remains accessible throughout scroll",
+        "Button design matches overall aesthetic"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/StickyMobileCTA.tsx",
+          "operation": "create",
+          "description": "Create sticky CTA button component that remains fixed at bottom of mobile viewport during scroll. Apply gold accent styling matching overall aesthetic. Ensure button is accessible and prominent on mobile devices. Include proper z-index layering and responsive visibility (mobile-only)."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render StickyMobileCTA component at the root level of the landing page layout to remain visible throughout scroll."
+        }
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "summary": "Include trust badges displaying 'Instant Download', 'One-time Payment', and 'Digital Access' throughout the page to build credibility",
+      "acceptanceCriteria": [
+        "All three trust badges are visible",
+        "Badges are strategically placed near CTAs",
+        "Visual design reinforces trust and professionalism"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/TrustBadges.tsx",
+          "operation": "create",
+          "description": "Create trust badges component displaying 'Instant Download', 'One-time Payment', and 'Digital Access'. Use the generated trust badge icons at frontend/public/assets/generated/badge-instant.dim_120x120.png, frontend/public/assets/generated/badge-payment.dim_120x120.png, and frontend/public/assets/generated/badge-digital.dim_120x120.png. Design for professional credibility with gold and white styling. Make component reusable for placement near CTAs."
+        },
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Import and render TrustBadges component strategically near the CTA button to build credibility."
+        },
+        {
+          "path": "frontend/src/components/PriceSection.tsx",
+          "operation": "modify",
+          "description": "Import and render TrustBadges component near pricing and CTA to reinforce trust at purchase decision point."
+        }
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "summary": "Optimize page layout and content flow for paid ads traffic conversion with clear visual hierarchy and minimal friction to purchase",
+      "acceptanceCriteria": [
+        "Page structure follows proven landing page conversion principles",
+        "Sections flow logically from problem to solution to action",
+        "Visual hierarchy guides users toward purchase decision",
+        "No unnecessary friction or distractions from conversion goal"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Ensure all sections flow in correct sequence: HeroSection, ProblemSection, FearBridgeSection, SolutionSection, BenefitsSection, WhatsIncludedSection, PriceSection, FAQSection, FinalCTASection. Apply clear visual hierarchy with consistent spacing, gold accent emphasis on CTAs, and minimal distractions. Optimize for paid ads traffic conversion with direct path to purchase decision."
+        },
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Add utility classes and global styles that support clear visual hierarchy, emphasize CTAs with gold accents, and create smooth visual flow from section to section. Remove any default styling that creates friction or distraction from conversion goal."
+        }
+      ]
+    }
+  ]
+}
